@@ -3,13 +3,13 @@ import { COMMENTS } from '../shared/comments';
 import { PROMOTIONS } from '../shared/promotion';
 import { LEADERS } from '../shared/leader';
 
-export const initiaState = {
+export const initialState = {
     dishes: DISHES,
     comments: COMMENTS,
     promotions: PROMOTIONS,
     leaders: LEADERS
 };
 
-export const Reducer = (state = initiaState, action) => {
+export const Reducer = (state = initialState, action) => {
     return state;
 };
